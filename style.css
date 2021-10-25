@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Rajdhani', sans-serif;
+}
+header{
+    text-align:center;
+    line-height: 2rem;
+    background: rgba( 144, 19, 254, 0.25 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color:white;
+}
+header h1{
+    text-transform: uppercase;
+    width:100%;
+    
+}
+section{
+    background: linear-gradient(45deg, #BD17FF 0%, #8700A8 50%, #9000B3 100%);
+}
+.prf-title{
+    font-size:24px;
+    text-align: center;
+    color:white;
+    margin-bottom:10px;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    background-color:White;
+    border-radius:10px;
+    padding:1.5rem;
+    box-shadow:0px 6px 14px 0px rgba(0,0,0,0.47);
+}
+form label{
+    font-size:24px;
+}
+.container-form{
+    padding-top:1rem;
+    padding-bottom:3rem;
+    margin-left:1.5rem;
+    margin-right:1.5rem;
+}
+
+.container-precio{
+    margin-bottom:1.2rem;
+}
+input{
+    margin-top:5px;
+    width:100%;
+    height:35px;
+    border-radius: 10px;
+    outline:none;
+    border:1px solid rgba(0, 0, 0, 0.527);
+    padding:0.5rem;
+    font-size:20px;
+}   
+
+.container-descuento{
+    margin-bottom:1.2rem;
+}
+
+form button{
+    margin:1.5rem 0;
+    padding:0.8rem 0;
+    border-radius:5px;
+    color:White;
+    background:linear-gradient(45deg, #BD17FF 0%, #8700A8 50%, #9000B3 100%);
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    border:0px;
+}
+
+.container-prf-js{
+    font-size:20px;
+}
+
+.prf-container {
+    text-align:center;
+    margin-bottom:0.4rem;
+}

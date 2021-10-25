@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuentos</title>
+    <link rel="shortcut icon" href="porcentaje.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desktop.css" media="(min-width:800px)">
+</head>
+<body>
+    <header>
+        <h1>Porcentajes y descuentos!</h1>
+        <p>Realizado por <a href="https://www.linkedin.com/in/emilianooliveto/" target="_blank">Puli</a> with 💚 - JS Vanilla</p>
+    </header>
+<section>
+    <div class="container-form">
+    <p class="prf-title">Calcula un precio si aplicas un descuento</p>
+    <form action="">
+        <div class="container-precio">
+            <label for="precio-original">¿Cuál es el precio?</label>
+            <input type="number" placeholder="Precio del producto" id='precio-original'>
+        </div>
+        <div class="container-descuento">
+            <label for="precio-descuento">¿Cuál es el porcentaje de descuento?</label>
+            <input type="number" placeholder="Porcentaje del descuento" id='precio-descuento'>
+        </div>
+        <button type="button" onclick="calculaDescuento()">Calcula precio con descuento</button>
+        <div class="container-prf-js">
+            <p class="prf-container">Resultado:</p>
+            <p id='prf-precio-original'>Precio original:</p>
+            <p id="prf-resultado"></p>
+        </div>
+    </form>
+</div>
+</section>
+
+    <script src="descuentos.js"></script>
+</body>
+</html>

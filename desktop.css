@@ -1,0 +1,22 @@
+.container-form{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    padding-top:40px;
+}
+section{
+    height:89.5vh;
+}
+form{
+    width:390px;
+
+}
+
+form button{
+    transition:0.8s;
+}
+
+form button:hover{
+    transform:scale(1.1);
+    transition:0.5s;
+}
